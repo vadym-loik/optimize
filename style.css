@@ -23,7 +23,7 @@ a:hover {
 }
 
 a:focus {
-  border: 2px solid #fff;
+  border: 2px solid orange;
 }
 
 ul {
@@ -287,6 +287,12 @@ ul {
 
 .voffset-lg {
   margin-top: 80px;
+}
+
+.rowLinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .row-no-gutters {
