@@ -22,6 +22,11 @@
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
     <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
 
+    <script defer src="./js/jquery-2.1.0.js"></script>
+    <script defer src="./js/bootstrap.js"></script>
+    <script defer src="./js/blocs.js"></script>
+    <script defer src="./js/gmaps.js"></script>
+
     <title>GoMikeDesigns - an awesome freelance web designer!</title>
 
     <!-- Analytics -->
@@ -42,6 +47,7 @@
                   alt="logo of the site with words go mike designs"
                   width="214"
                   height="40"
+                  loading="lazy"
               /></a>
               <button
                 id="nav-toggle"
@@ -84,6 +90,7 @@
                 class="center-block image-resize-mode"
                 width="100"
                 alt="drawing of a man with yellow hair"
+                loading="lazy"
               />
               <h1 class="text-center hero-bloc-text tc-white">I'm Mike.</h1>
               <div class="text-center">
@@ -161,6 +168,7 @@
                 class="titlePng"
                 alt="a testimonial from taylor cook project manager of the apple delights"
                 src="img/quote.png"
+                loading="lazy"
               />
             </div>
           </div>
@@ -212,6 +220,7 @@
                 class="titlePng"
                 alt="picture with the text websites i've designed and developed for atlanta companies that resulted in more local bussines"
                 src="img/title2.png"
+                loading="lazy"
               />
             </div>
           </div>
@@ -229,6 +238,7 @@
                   alt="the girl with the white dog"
                   width="270"
                   height="270"
+                  loading="lazy"
               /></a>
               <h3 class="mg-md text-center">
                 Website for Atlanta&rsquo;s premiere Dog Sitters
@@ -251,6 +261,7 @@
                   alt="mint pancakes with sprinkles"
                   width="270"
                   height="270"
+                  loading="lazy"
               /></a>
               <h3 class="mg-md text-center">
                 Web redesign for the best Atlanta&nbsp;cupcakes
@@ -275,6 +286,7 @@
                   alt="a desk with lots of digital equipment"
                   width="270"
                   height="270"
+                  loading="lazy"
               /></a>
               <h3 class="mg-md text-center">
                 New logo and website for Atl + Gear - Atlanta&rsquo;s best tech
@@ -298,6 +310,7 @@
                   alt="a man sitting in a helicopter and smiling"
                   width="270"
                   height="270"
+                  loading="lazy"
               /></a>
               <h3 class="mg-md text-center">
                 Atlanta&rsquo;s legal new website - Generating 30% more law
@@ -378,16 +391,25 @@
                   <h2>Partners</h2>
                   <ul>
                     <li>
-                      <a href="car.com" width="48" height="48">car.com</a>
+                      <a class="hyperLink" title="car.com" href="car.com"
+                        >car.com</a
+                      >
                     </li>
                     <li>
-                      <a href="pizza.com" width="48" height="48">pizza.com</a>
+                      <a class="hyperLink" title="pizza.com" href="pizza.com"
+                        >pizza.com</a
+                      >
                     </li>
                     <li>
-                      <a href="myroof.com" width="48" height="48">myroof.com</a>
+                      <a class="hyperLink" title="myroof.com" href="myroof.com"
+                        >myroof.com</a
+                      >
                     </li>
                     <li>
-                      <a href="realestateseo.com" width="48" height="48"
+                      <a
+                        class="hyperLink"
+                        title="realestateseo.com"
+                        href="realestateseo.com"
                         >realestateseo.com</a
                       >
                     </li>
@@ -397,45 +419,71 @@
                   <h2>Directories 1</h2>
                   <ul>
                     <li>
-                      <a href="agencydirectory.com" width="48" height="48"
+                      <a
+                        class="hyperLink"
+                        title="agencydirectory.com"
+                        href="agencydirectory.com"
                         >agencydirectory.com</a
                       >
                     </li>
                     <li>
-                      <a href="seodirectory.com" width="48" height="48"
+                      <a
+                        class="hyperLink"
+                        title="seodirectory.com"
+                        href="seodirectory.com"
                         >seodirectory.com</a
                       >
                     </li>
                     <li>
-                      <a href="marketingdirectory.com" width="48" height="48"
+                      <a
+                        class="hyperLink"
+                        title="marketingdirectory.com"
+                        href="marketingdirectory.com"
                         >marketingdirectory.com</a
                       >
                     </li>
                     <li>
-                      <a href="123seo.com" width="48" height="48">123seo.com</a>
+                      <a class="hyperLink" title="123seo.com" href="123seo.com"
+                        >123seo.com</a
+                      >
                     </li>
                     <li>
-                      <a href="123site.com" width="48" height="48"
+                      <a
+                        class="hyperLink"
+                        title="123site.com"
+                        href="123site.com"
                         >123site.com</a
                       >
                     </li>
                     <li>
-                      <a href="wordpressdirectory.com" width="48" height="48"
+                      <a
+                        class="hyperLink"
+                        title="wordpressdirectory.com"
+                        href="wordpressdirectory.com"
                         >wordpressdirectory.com</a
                       >
                     </li>
                     <li>
-                      <a href="agencylistatl.com" width="48" height="48"
+                      <a
+                        class="hyperLink"
+                        title="agencylistatl.com"
+                        href="agencylistatl.com"
                         >agencylistatl.com</a
                       >
                     </li>
                     <li>
-                      <a href="bestagencyatl.com" width="48" height="48"
+                      <a
+                        class="hyperLink"
+                        title="bestagencyatl.com"
+                        href="bestagencyatl.com"
                         >bestagencyatl.com</a
                       >
                     </li>
                     <li>
-                      <a href="seolist.com" width="48" height="48"
+                      <a
+                        class="hyperLink"
+                        title="seolist.com"
+                        href="seolist.com"
                         >seolist.com</a
                       >
                     </li>
@@ -445,45 +493,71 @@
                   <h2>Directories 2</h2>
                   <ul>
                     <li>
-                      <a href="betterseo.com" width="48" height="48"
+                      <a
+                        class="hyperLink"
+                        title="betterseo.com"
+                        href="betterseo.com"
                         >betterseo.com</a
                       >
                     </li>
                     <li>
-                      <a href="yesseo.com" width="48" height="48">yesseo.com</a>
+                      <a class="hyperLink" title="yesseo.com" href="yesseo.com"
+                        >yesseo.com</a
+                      >
                     </li>
                     <li>
-                      <a href="seojuicelink.com" width="48" height="48"
+                      <a
+                        class="hyperLink"
+                        title="seojuicelink.com"
+                        href="seojuicelink.com"
                         >seojuicelink.com</a
                       >
                     </li>
                     <li>
-                      <a href="bestlinks.com" width="48" height="48"
+                      <a
+                        class="hyperLink"
+                        title="bestlinks.com"
+                        href="bestlinks.com"
                         >bestlinks.com</a
                       >
                     </li>
                     <li>
-                      <a href="linkalot.com" width="48" height="48"
+                      <a
+                        class="hyperLink"
+                        title="linkalot.com"
+                        href="linkalot.com"
                         >linkalot.com</a
                       >
                     </li>
                     <li>
-                      <a href="backlink.com" width="48" height="48"
+                      <a
+                        class="hyperLink"
+                        title="backlink.com"
+                        href="backlink.com"
                         >backlink.com</a
                       >
                     </li>
                     <li>
-                      <a href="linkjuicedirectory.com" width="48" height="48"
+                      <a
+                        class="hyperLink"
+                        title="linkjuicedirectory.com"
+                        href="linkjuicedirectory.com"
                         >linkjuicedirectory.com</a
                       >
                     </li>
                     <li>
-                      <a href="rankongoogle.com" width="48" height="48"
+                      <a
+                        class="hyperLink"
+                        title="rankongoogle.com"
+                        href="rankongoogle.com"
                         >rankongoogle.com</a
                       >
                     </li>
                     <li>
-                      <a href="trustedseo.com" width="48" height="48"
+                      <a
+                        class="hyperLink"
+                        title="trustedseo.com"
+                        href="trustedseo.com"
                         >trustedseo.com</a
                       >
                     </li>
@@ -497,9 +571,5 @@
       <!-- Footer - bloc-8 END -->
     </div>
     <!-- Main container END -->
-    <script async src="./js/jquery-2.1.0.js"></script>
-    <script async src="./js/bootstrap.js"></script>
-    <script async src="./js/blocs.js"></script>
-    <script async src="./js/gmaps.js"></script>
   </body>
 </html>
