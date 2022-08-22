@@ -57,6 +57,14 @@ ul {
   height: auto;
 }
 
+.form-group {
+  color: #000;
+}
+
+.formText {
+  color: #000;
+}
+
 .bloc-lg {
   padding: 100px 50px;
 }
