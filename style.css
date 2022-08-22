@@ -52,10 +52,10 @@ ul {
   position: relative;
 }
 
-/* .bloc .container {
-  padding-left: 0;
-  padding-right: 0;
-} */
+.image-resize-mode {
+  width: 100px;
+  height: auto;
+}
 
 .bloc-lg {
   padding: 100px 50px;
