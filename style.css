@@ -1082,4 +1082,8 @@ h4 {
     height: 48px;
     width: 100%;
   }
+
+  .rowItem {
+    margin-bottom: 8px;
+  }
 }
