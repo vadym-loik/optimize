@@ -40,6 +40,11 @@ ul {
   background: #ffffff url('img/pageload-spinner.gif') no-repeat center center;
 }
 
+.col-xs-12-text {
+  font-size: medium;
+  font-style: italic;
+}
+
 .bloc {
   width: 100%;
   clear: both;
